@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bbllorecruhs2"]
+
+[ext_resource type="Script" path="res://scripts/game.gd" id="1_0xm2m"]
+[ext_resource type="Script" path="res://scripts/board.gd" id="2_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=160475668]
+script = ExtResource("1_0xm2m")
+
+[node name="Board" type="Node2D" parent="." unique_id=79604149]
+script = ExtResource("2_h2yge")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=735636265]
