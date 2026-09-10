@@ -1,3 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# 导出产物：可用 export_presets.cfg 重新导出。
+# wuziqi.exe 约 105MB，超过 GitHub 单文件 100MB 上限，因此不入库。
+/五子棋/
